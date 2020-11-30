@@ -1,0 +1,11 @@
+Versione live qui:
+
+https://www.dinoballiana.com/shark
+
+GITHUB Repo:
+
+https://www.dinoballiana.com/shark
+
+PACCHETTO
+
+Nel pacchetto trovate la versione per lo sviluppo che si appogia su gulp e quella per la produzione minificata e ottimizzata.

@@ -1,0 +1,80 @@
+/* FONT */
+
+@font-face {
+  font-family: 'Monument-ext';
+  src:  url('../font/monument-extended.woff2') format('woff2'),
+        url('../font/monument-extended.woff') format('woff');
+}
+
+/* COLORS */
+
+$orange: #d27d39;
+$grey: #AFB5A6;
+
+/* GLOBALS */
+
+body,html{
+  width:100%;
+  height:100%;
+  font-family: 'Monument-ext',sans-serif;
+  overflow:hidden;
+  background-color: $grey;
+}
+
+*{
+  cursor: none;
+}
+
+/* CONTAINER */
+
+.container{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('../img/sand.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  .container__canvas{
+    position:absolute;
+    top:0;
+    left:0;
+  }
+  .container__title{
+    font-size:60px;
+    animation: swim 4s cubic-bezier(0.445, 0.050, 0.550, 0.950) infinite;
+    position:absolute;
+    color:$orange;
+    text-shadow: -1px 20px 6px rgba(120, 125, 115, 0.3);
+  }
+}
+
+/* ANIMATION */
+
+@keyframes swim{
+  0%{
+    transform: translate3d(0px,-5px,0);
+  }
+  50%{
+    transform: translate3d(0px,5px,0);
+  }
+  100%{
+    transform: translate3d(0px,-5px,0);
+  }
+}
+
+@-webkit-keyframes swim{
+  0%{
+    transform: translate3d(0px,-5px,0);
+  }
+  50%{
+    transform: translate3d(0px,5px,0);
+  }
+  100%{
+    transform: translate3d(0px,-5px,0);
+  }
+}
