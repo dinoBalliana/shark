@@ -8,4 +8,4 @@ https://github.com/dinoBalliana/shark
 
 PACCHETTO
 
-Nel pacchetto trovate la versione per lo sviluppo che si appogia su gulp e quella per la produzione minificata e ottimizzata.
+Nel pacchetto trovate la versione DEV che si appoggia a gulp e quella PROD già minificata e ottimizzata.
